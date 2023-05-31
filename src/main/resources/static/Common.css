@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+.centerflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Reset 기본 스타일 */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* 전체 페이지 스타일 */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* 링크 스타일 */
+a {
+  color: rgb(0, 0, 128);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 헤더 스타일 */
+header {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* 내비게이션 메뉴 스타일 */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+/* 섹션 스타일 */
+section {
+  padding: 20px;
+}
+
+/* 푸터 스타일 */
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}/* 버튼 스타일 */
+button,
+input[type="button"],
+input[type="submit"] {
+
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 1ex;
+  background-color: #30EE60;
+  color: #000000;
+  cursor: pointer;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+  background-color: #80ff00;
+}
+
+/* 입력 요소 스타일 */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* 선택된 입력 요소 스타일 */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
